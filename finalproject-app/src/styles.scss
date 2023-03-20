@@ -1,0 +1,162 @@
+
+body {
+  font-family: 'Mulish', sans-serif;
+  background-color: #D9CBFF;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+h2 {
+  color: #9078D6;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+
+section {
+  text-align: left; 
+  background-color:white; 
+  border-radius: 15px;
+  color:#343a40;
+  border: none;
+
+}
+
+.customCard {
+  text-align: left; 
+  background-color:white; 
+  border-radius: 15px;
+  color:#343a40;
+  border: none;
+}
+
+#bookmarks {
+
+  font-size: 1.2em;
+  color: #343a40;
+}
+
+.btn-secondary {
+  background-color: #9078D6 !important;
+  border: none;
+  border-radius: 1em 0 0 1em !important;
+  outline: none;
+  box-shadow: none;
+}
+
+.input {
+  border-radius: 0 1em 1em 0 !important;
+  border: none;
+  color:#343a40;
+}
+
+.customButton {
+
+  background-color: rgba(0,0,0,0);
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  box-shadow: none;
+}
+
+
+.customButtonBookmark {
+
+  background-color: rgba(0,0,0,0);
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  box-shadow: none;
+  color: #9078D6;
+}
+
+.customButton:hover {
+  background-color: rgba(0,0,0,0);
+  outline: none;
+  box-shadow: none;
+}
+
+.customButton:focus {
+  background-color: rgba(0,0,0,0);
+  outline: none;
+  box-shadow: none;
+  border: none;
+
+
+}
+
+.customButton:active {
+  background-color: rgba(0,0,0,0);
+  text-shadow: 4px 4px 4px #00000000;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-style: none;
+
+}
+
+.customButton2 {
+  background-color:#9879f4 !important;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  box-shadow: none;
+
+}
+
+.customButton2:hover {
+  background-color:#ae99ef !important;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  box-shadow: none;
+
+}
+/*
+ <Button className="customButton2 mt-1" Style="   border-radius: 20px 0px 0px 20px;
+font-size:1.2em; background-color:#9078D6;" onClick={() => {navigate(`/search/${word}`)}}>Dictionary</Button>
+      <Button className="customButton mt-1 " Style="font-size:1.2em; background-color:#9078D6; border-radius: 0px 20px 20px 0px"  onClick={() => {navigate(`/search/${word}/thesaurus`)}}>Thesaurus</Button>  
+    </div>
+  )
+*/
+
+.btn:active {
+  outline: none;
+  box-shadow: none!important;
+  border: none !important;
+  border-style: none !important;
+
+}
+
+.btn-primary:active {
+  box-shadow: none;
+  border: none;
+}
+
+.subtitle {
+  font-weight: 800;
+  text-transform: capitalize;
+  color: #949396;
+}
+
+.bookmarks:hover {
+  color:#cabcf7;
+}
+
+.partSpeech {
+  text-transform: capitalize;
+  margin-top: 0.5em;
+  font-weight: 600;
+
+}
